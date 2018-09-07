@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>JavaMail Template</title>
+</head>
+<body>
+    <h1>你好<span th:text="${username}"></span>这是一封模板邮件</h1>
+    <h2 th:text="${message}">这里是邮件信息</h2>
+</body>
+</html>

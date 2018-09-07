@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/springboot-prop-test/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/simple-ribbon-client/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-rest-template/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrix-ribbon-client/pom.xml" />
+        <option value="$PROJECT_DIR$/userinfo-service/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-configserver/pom.xml" />
+        <option value="$PROJECT_DIR$/sprigncloud-configclient/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-helloworld/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-javamail/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-websocket/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8 (1)" project-jdk-type="JavaSDK" />
+</project>

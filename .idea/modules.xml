@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hystrix-ribbon-client/hystrix-ribbon-client.iml" filepath="$PROJECT_DIR$/hystrix-ribbon-client/hystrix-ribbon-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simple-ribbon-client/simple-ribbon-client.iml" filepath="$PROJECT_DIR$/simple-ribbon-client/simple-ribbon-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sprigncloud-configclient/sprigncloud-configclient.iml" filepath="$PROJECT_DIR$/sprigncloud-configclient/sprigncloud-configclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-javamail/springboot-javamail.iml" filepath="$PROJECT_DIR$/springboot-javamail/springboot-javamail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-prop-test/springboot-prop-test.iml" filepath="$PROJECT_DIR$/springboot-prop-test/springboot-prop-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq-helloworld/springboot-rabbitmq-helloworld.iml" filepath="$PROJECT_DIR$/rabbitmq-helloworld/springboot-rabbitmq-helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-rest-template/springboot-rest-template.iml" filepath="$PROJECT_DIR$/springboot-rest-template/springboot-rest-template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-websocket/springboot-websocket.iml" filepath="$PROJECT_DIR$/springboot-websocket/springboot-websocket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/springcloud.iml" filepath="$PROJECT_DIR$/.idea/springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-configserver/springcloud-configserver.iml" filepath="$PROJECT_DIR$/springcloud-configserver/springcloud-configserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-eureka/springcloud-eureka.iml" filepath="$PROJECT_DIR$/springcloud-eureka/springcloud-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-feign-client/springcloud-feign-client.iml" filepath="$PROJECT_DIR$/springcloud-feign-client/springcloud-feign-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-zuul/springcloud-zuul.iml" filepath="$PROJECT_DIR$/springcloud-zuul/springcloud-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/userinfo-service/userinfo-service.iml" filepath="$PROJECT_DIR$/userinfo-service/userinfo-service.iml" />
+    </modules>
+  </component>
+</project>

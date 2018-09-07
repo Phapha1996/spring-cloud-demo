@@ -1,0 +1,19 @@
+package org.fage.springcloudeureka;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+
+@SpringBootApplication
+@EnableEurekaServer
+public class EurekaServiceApplication {
+
+	static final Logger logger = LoggerFactory.getLogger(EurekaServiceApplication.class);
+
+	public static void main(String[] args) {
+		logger.info("\n                              _ooOoo_\n                             o8888888o\n                             88\" . \"88\n                             (| -_- |)\n                             O\\  =  /O\n                          ____/`---'\\____\n                        .'  \\\\|     |//  `.\n                       /  \\\\|||  :  |||//  \\\n                      /  _||||| -:- |||||-  \\\n                      |   | \\\\\\  -  /// |   |\n                      | \\_|  ''\\---/''  |   |\n                      \\  .-\\__  `-`  ___/-. /\n                    ___`. .'  /--.--\\  `. . __\n                 .\"\" '<  `.___\\_<|>_/___.'  >'\"\".\n                | | :  `- \\`.;`\\ _ /`;.`/ - ` : | |\n                \\  \\ `-.   \\_ __\\ /__ _/   .-` /  /\n           ======`-.____`-.___\\_____/___.-`____.-'======\n                              `=---='\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n                      佛祖保佑        永无BUG\n\n **************************************************************\n *                                                            *\n *   .=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-.       *\n *    |                     ______                     |      *\n *    |                  .-\"      \"-.                  |      *\n *    |                 /            \\                 |      *\n *    |     _          |              |          _     |      *\n *    |    ( \\         |,  .-.  .-.  ,|         / )    |      *\n *    |     > \"=._     | )(__/  \\__)( |     _.=\" <     |      *\n *    |    (_/\"=._\"=._ |/     /\\     \\| _.=\"_.=\"\\_)    |      *\n *    |           \"=._\"(_     ^^     _)\"_.=\"           |      *\n *    |               \"=\\__|IIIIII|__/=\"               |      *\n *    |              _.=\"| \\IIIIII/ |\"=._              |      *\n *    |    _     _.=\"_.=\"\\          /\"=._\"=._     _    |      *\n *    |   ( \\_.=\"_.=\"     `--------`     \"=._\"=._/ )   |      *\n *    |    > _.=\"                            \"=._ <    |      *\n *    |   (_/                                    \\_)   |      *\n *    |                                                |      *\n *    '-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-='      *\n *                                                            *\n *           LASCIATE OGNI SPERANZA, VOI CH'ENTRATE           *\n **************************************************************\n//                       .::::.\n//                     .::::::::.\n//                    :::::::::::\n//                 ..:::::::::::'\n//              '::::::::::::'\n//                .::::::::::\n//           '::::::::::::::..\n//                ..::::::::::::.\n//              ``::::::::::::::::\n//               ::::``:::::::::'        .:::.\n//              ::::'   ':::::'       .::::::::.\n//            .::::'      ::::     .:::::::'::::.\n//           .:::'       :::::  .:::::::::' ':::::.\n//          .::'        :::::.:::::::::'      ':::::.\n//         .::'         ::::::::::::::'         ``::::.\n//     ...:::           ::::::::::::'              ``::.\n//    ```` ':.          ':::::::::'                  ::::..\n//                       '.:::::'                    ':'````..\n//");
+		SpringApplication.run(EurekaServiceApplication.class, args);
+	}
+}
