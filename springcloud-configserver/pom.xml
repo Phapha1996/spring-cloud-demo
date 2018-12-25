@@ -38,10 +38,10 @@
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>-->
 		<!--SpringCloud Bus-->
-		<dependency>
+		<!--<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-bus-amqp</artifactId>
-		</dependency>
+		</dependency>-->
 		<!--端点监控模块，有/refresh模块-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

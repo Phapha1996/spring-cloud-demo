@@ -8,12 +8,14 @@ import java.util.Date;
  * @date 下午5:21 2018/7/13
  * @description 用户实体
  **/
-public class User {
+public class User<T> {
     private Integer id;
     private String username;
 //    @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
 //    @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss",timezone = "GMT+8")
     private Date birthday;
+    private T obj;
+
     public Integer getId() {
         return id;
     }
@@ -38,12 +40,21 @@ public class User {
         this.birthday = birthday;
     }
 
+    public T getObj() {
+        return obj;
+    }
+
+    public void setObj(T obj) {
+        this.obj = obj;
+    }
+
     @Override
     public String toString() {
         return "User{" +
                 "id=" + id +
                 ", username='" + username + '\'' +
                 ", birthday=" + birthday +
+                ", obj=" + obj +
                 '}';
     }
 }

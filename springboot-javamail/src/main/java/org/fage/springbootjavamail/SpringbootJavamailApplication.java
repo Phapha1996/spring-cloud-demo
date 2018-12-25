@@ -33,4 +33,11 @@ public class SpringbootJavamailApplication {
 		log.info(classPath);
 		return classPath;
 	}
+
+	@RequestMapping("/hello")
+	public String hello() throws InterruptedException {
+		log.info("我被调用了，开始睡眠了");
+		Thread.sleep(60*1000);
+		return "调用成功";
+	}
 }

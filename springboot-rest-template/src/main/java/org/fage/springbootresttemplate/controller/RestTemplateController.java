@@ -38,7 +38,6 @@ public class RestTemplateController {
         ResponseEntity<User> responseEntity = restTemplate.getForEntity(url + "/{"+id+"}", User.class, id);
         logger.info(responseEntity.getBody().toString());
         logger.info(responseEntity.getStatusCodeValue() + "");
-
         return responseEntity.getBody();
     }
 
