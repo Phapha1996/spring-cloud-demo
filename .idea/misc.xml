@@ -3,18 +3,24 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/springboot-prop-test/pom.xml" />
-        <option value="$PROJECT_DIR$/springcloud-eureka/pom.xml" />
-        <option value="$PROJECT_DIR$/simple-ribbon-client/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-rest-template/pom.xml" />
         <option value="$PROJECT_DIR$/hystrix-ribbon-client/pom.xml" />
-        <option value="$PROJECT_DIR$/userinfo-service/pom.xml" />
-        <option value="$PROJECT_DIR$/springcloud-zuul/pom.xml" />
-        <option value="$PROJECT_DIR$/springcloud-configserver/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmqnative/pom.xml" />
+        <option value="$PROJECT_DIR$/simple-ribbon-client/pom.xml" />
         <option value="$PROJECT_DIR$/sprigncloud-configclient/pom.xml" />
-        <option value="$PROJECT_DIR$/rabbitmq-helloworld/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-javamail/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-prop-test/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-querydsl-test/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-rest-template/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-socket-io/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-websocket/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-configserver/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-feign-client/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/userinfo-service/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-helloworld/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-test/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-rabbitmq-test/pom.xml" />
       </list>
     </option>
   </component>

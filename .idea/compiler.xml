@@ -7,13 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="hystrix-ribbon-client" />
+        <module name="query-dsl-test" />
         <module name="rabbitmq-helloworld" />
+        <module name="rabbitmq-native" />
+        <module name="rabbitmq-test" />
         <module name="simple-ribbon-client" />
         <module name="sprigncloud-configclient" />
         <module name="springboot-javamail" />
         <module name="springboot-prop-test" />
         <module name="springboot-rabbitmq-helloworld" />
+        <module name="springboot-rabbitmq-test" />
         <module name="springboot-rest-template" />
+        <module name="springboot-socket-io" />
         <module name="springboot-websocket" />
         <module name="springcloud-configserver" />
         <module name="springcloud-eureka" />
@@ -27,13 +32,18 @@
       <module name="feign-client" target="1.8" />
       <module name="hello-service" target="1.8" />
       <module name="hystrix-ribbon-client" target="1.8" />
+      <module name="query-dsl-test" target="1.8" />
       <module name="rabbitmq-helloworld" target="1.8" />
+      <module name="rabbitmq-native" target="1.8" />
+      <module name="rabbitmq-test" target="1.8" />
       <module name="simple-ribbon-client" target="1.8" />
       <module name="sprigncloud-configclient" target="1.8" />
       <module name="springboot-javamail" target="1.8" />
       <module name="springboot-prop-test" target="1.8" />
       <module name="springboot-rabbitmq-helloworld" target="1.8" />
+      <module name="springboot-rabbitmq-test" target="1.8" />
       <module name="springboot-rest-template" target="1.8" />
+      <module name="springboot-socket-io" target="1.8" />
       <module name="springboot-websocket" target="1.8" />
       <module name="springcloud-configserver" target="1.8" />
       <module name="springcloud-eureka" target="1.8" />
