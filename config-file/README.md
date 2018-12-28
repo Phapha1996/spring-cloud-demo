@@ -1,0 +1,2 @@
+# SpringCloudConfig配置中心配置测试
+本文件为云配置中心测试文件
